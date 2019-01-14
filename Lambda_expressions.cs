@@ -45,7 +45,9 @@ namespace Employee
                 new Employee(){name="Raj",country="India",dob=new DateTime(1997,05,05),gender='M'},
                 new Employee(){name="Sriram pandey",country="India",dob=new DateTime(1994,02,28),gender='M'},
                 new Employee(){name="Ananya",country="India",dob=new DateTime(1995,05,26),gender='F'},
-                new Employee(){name="Venkat",country="US",dob=new DateTime(1990,03,20),gender='M'}
+                new Employee(){name="Venkat",country="US",dob=new DateTime(1990,03,20),gender='M'},
+                new Employee(){name="Bala",country="India",dob=new DateTime(1910,02,16),gender='F'},
+                new Employee(){name="Arun",country="US",dob=new DateTime(1940,06,08),gender='M'}
             };
             Print print1= new Print(PrintEmp);
             Print print2 = new Print(PrintEmpName);
